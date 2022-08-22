@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#E2E2E2;
+	font-family:"Comic Sans MS", cursive;
+}
+
+#titulo{
+	border: 2px #C0C0C0 solid;
+	border-radius: 10px;
+	margin: 1em;
+	background-color: #E9E9E9;
+	text-align:center;
+}
+
+#formu {
+	border: 2px #C0C0C0 solid;
+	border-radius: 10px;
+	padding: 30px;
+	background-color: #E9E9E9;
+	//float: left;
+}
+
+#boton {
+	background: transparent;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#boton:hover{
+	color:#FFF;
+	font-weight: bold;
+	background-color: #82C0FF;
+
+}
+
+#tablita {
+	border: 2px #C0C0C0 solid;
+	border-radius: 10px;
+	padding: 30px;
+	background-color: #E9E9E9;
+	overflow:hidden;
+	clear:both;
+	text-decoration:none;
+}
+
+a:link{
+	text-decoration:none;
+}
+
+a:hover{
+	color:#FFF;
+}
+
+a {
+	color:black;
+}
+
+#tablon table{
+	border-color: #B0D8FF;
+	margin: 5px;
+	padding: 5px;
+	text-align:center;
+}
+
+#tablon th {
+	padding-left: 25px;
+	padding-right: 25px;
+	background-color:#82C0FF;
+}
+
+#tablon td:hover{
+	color: #FFF;
+	background-color: #82C0FF;
+}
+
+#tablon th:hover, a:hover{
+	background-color:#B3D9FF;
+}
+
+#tablon td, a:hover {
+	background-color: #B3D9FF;
+}
+
