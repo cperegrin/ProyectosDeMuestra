@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="EV4CristopherPeregrinModel.Store" Alias="Self" Provider="System.Data.SqlServerCe.4.0" ProviderManifestToken="4.0" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="EV4CristopherPeregrinModelStoreContainer">
+          <EntitySet Name="Cliente" EntityType="EV4CristopherPeregrinModel.Store.Cliente" store:Type="Tables" />
+          <EntitySet Name="Libro" EntityType="EV4CristopherPeregrinModel.Store.Libro" store:Type="Tables" />
+          <EntitySet Name="Prestamo" EntityType="EV4CristopherPeregrinModel.Store.Prestamo" store:Type="Tables" />
+          <AssociationSet Name="FK_Prestamo_Cliente" Association="EV4CristopherPeregrinModel.Store.FK_Prestamo_Cliente">
+            <End Role="Cliente" EntitySet="Cliente" />
+            <End Role="Prestamo" EntitySet="Prestamo" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Prestamo_Libro" Association="EV4CristopherPeregrinModel.Store.FK_Prestamo_Libro">
+            <End Role="Libro" EntitySet="Libro" />
+            <End Role="Prestamo" EntitySet="Prestamo" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Cliente">
+          <Key>
+            <PropertyRef Name="ClienteID" />
+          </Key>
+          <Property Name="ClienteID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Rut" Type="nvarchar" MaxLength="100" />
+          <Property Name="Nombres" Type="nvarchar" MaxLength="100" />
+          <Property Name="Apellidos" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="Libro">
+          <Key>
+            <PropertyRef Name="LibroID" />
+          </Key>
+          <Property Name="LibroID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="NumeroSerie" Type="nvarchar" MaxLength="100" />
+          <Property Name="Titulo" Type="nvarchar" MaxLength="100" />
+          <Property Name="Autor" Type="nvarchar" MaxLength="100" />
+          <Property Name="AñoEdicion" Type="int" />
+        </EntityType>
+        <EntityType Name="Prestamo">
+          <Key>
+            <PropertyRef Name="PrestamoID" />
+          </Key>
+          <Property Name="PrestamoID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="FechaPrestamo" Type="datetime" />
+          <Property Name="FechaDevolucion" Type="datetime" />
+          <Property Name="LibroID" Type="int" />
+          <Property Name="ClienteID" Type="int" />
+          <Property Name="FechaLimite" Type="datetime" />
+        </EntityType>
+        <Association Name="FK_Prestamo_Cliente">
+          <End Role="Cliente" Type="EV4CristopherPeregrinModel.Store.Cliente" Multiplicity="0..1" />
+          <End Role="Prestamo" Type="EV4CristopherPeregrinModel.Store.Prestamo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cliente">
+              <PropertyRef Name="ClienteID" />
+            </Principal>
+            <Dependent Role="Prestamo">
+              <PropertyRef Name="ClienteID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Prestamo_Libro">
+          <End Role="Libro" Type="EV4CristopherPeregrinModel.Store.Libro" Multiplicity="0..1" />
+          <End Role="Prestamo" Type="EV4CristopherPeregrinModel.Store.Prestamo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Libro">
+              <PropertyRef Name="LibroID" />
+            </Principal>
+            <Dependent Role="Prestamo">
+              <PropertyRef Name="LibroID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="EV4CristopherPeregrinModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="EV4CristopherPeregrinEntidades" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="Cliente" EntityType="EV4CristopherPeregrinModel.Cliente" />
+          <EntitySet Name="Libro" EntityType="EV4CristopherPeregrinModel.Libro" />
+          <EntitySet Name="Prestamo" EntityType="EV4CristopherPeregrinModel.Prestamo" />
+          <AssociationSet Name="FK_Prestamo_Cliente" Association="EV4CristopherPeregrinModel.FK_Prestamo_Cliente">
+            <End Role="Cliente" EntitySet="Cliente" />
+            <End Role="Prestamo" EntitySet="Prestamo" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Prestamo_Libro" Association="EV4CristopherPeregrinModel.FK_Prestamo_Libro">
+            <End Role="Libro" EntitySet="Libro" />
+            <End Role="Prestamo" EntitySet="Prestamo" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Cliente">
+          <Key>
+            <PropertyRef Name="ClienteID" />
+          </Key>
+          <Property Name="ClienteID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Rut" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Nombres" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Apellidos" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="Prestamo" Relationship="EV4CristopherPeregrinModel.FK_Prestamo_Cliente" FromRole="Cliente" ToRole="Prestamo" />
+        </EntityType>
+        <EntityType Name="Libro">
+          <Key>
+            <PropertyRef Name="LibroID" />
+          </Key>
+          <Property Name="LibroID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="NumeroSerie" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Titulo" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Autor" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="AñoEdicion" Type="Int32" />
+          <NavigationProperty Name="Prestamo" Relationship="EV4CristopherPeregrinModel.FK_Prestamo_Libro" FromRole="Libro" ToRole="Prestamo" />
+        </EntityType>
+        <EntityType Name="Prestamo">
+          <Key>
+            <PropertyRef Name="PrestamoID" />
+          </Key>
+          <Property Name="PrestamoID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="FechaPrestamo" Type="DateTime" Precision="3" />
+          <Property Name="FechaDevolucion" Type="DateTime" Precision="3" />
+          <Property Name="LibroID" Type="Int32" />
+          <Property Name="ClienteID" Type="Int32" />
+          <NavigationProperty Name="Cliente" Relationship="EV4CristopherPeregrinModel.FK_Prestamo_Cliente" FromRole="Prestamo" ToRole="Cliente" />
+          <NavigationProperty Name="Libro" Relationship="EV4CristopherPeregrinModel.FK_Prestamo_Libro" FromRole="Prestamo" ToRole="Libro" />
+          <Property Type="DateTime" Name="FechaLimite" Precision="3" />
+        </EntityType>
+        <Association Name="FK_Prestamo_Cliente">
+          <End Role="Cliente" Type="EV4CristopherPeregrinModel.Cliente" Multiplicity="0..1" />
+          <End Role="Prestamo" Type="EV4CristopherPeregrinModel.Prestamo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cliente">
+              <PropertyRef Name="ClienteID" />
+            </Principal>
+            <Dependent Role="Prestamo">
+              <PropertyRef Name="ClienteID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Prestamo_Libro">
+          <End Role="Libro" Type="EV4CristopherPeregrinModel.Libro" Multiplicity="0..1" />
+          <End Role="Prestamo" Type="EV4CristopherPeregrinModel.Prestamo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Libro">
+              <PropertyRef Name="LibroID" />
+            </Principal>
+            <Dependent Role="Prestamo">
+              <PropertyRef Name="LibroID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="EV4CristopherPeregrinModelStoreContainer" CdmEntityContainer="EV4CristopherPeregrinEntidades">
+          <EntitySetMapping Name="Cliente">
+            <EntityTypeMapping TypeName="EV4CristopherPeregrinModel.Cliente">
+              <MappingFragment StoreEntitySet="Cliente">
+                <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+                <ScalarProperty Name="Rut" ColumnName="Rut" />
+                <ScalarProperty Name="Nombres" ColumnName="Nombres" />
+                <ScalarProperty Name="Apellidos" ColumnName="Apellidos" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Libro">
+            <EntityTypeMapping TypeName="EV4CristopherPeregrinModel.Libro">
+              <MappingFragment StoreEntitySet="Libro">
+                <ScalarProperty Name="LibroID" ColumnName="LibroID" />
+                <ScalarProperty Name="NumeroSerie" ColumnName="NumeroSerie" />
+                <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+                <ScalarProperty Name="Autor" ColumnName="Autor" />
+                <ScalarProperty Name="AñoEdicion" ColumnName="AñoEdicion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Prestamo">
+            <EntityTypeMapping TypeName="EV4CristopherPeregrinModel.Prestamo">
+              <MappingFragment StoreEntitySet="Prestamo">
+                <ScalarProperty Name="FechaLimite" ColumnName="FechaLimite" />
+                <ScalarProperty Name="PrestamoID" ColumnName="PrestamoID" />
+                <ScalarProperty Name="FechaPrestamo" ColumnName="FechaPrestamo" />
+                <ScalarProperty Name="FechaDevolucion" ColumnName="FechaDevolucion" />
+                <ScalarProperty Name="LibroID" ColumnName="LibroID" />
+                <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Predeterminado" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

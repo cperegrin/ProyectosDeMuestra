@@ -1,0 +1,137 @@
+﻿<Window x:Class="EV4CristopherPeregrin.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Biblioteca" Height="411" Width="544">
+    <DockPanel>
+            <TabControl Margin="10,10" >
+                <TabItem Header="Libros">
+                    <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Label Content="Numero De Serie" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Titulo" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Autor" HorizontalAlignment="Left" Margin="292,45,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Año de edición" HorizontalAlignment="Left" Margin="10,73,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="txtNumSerie" HorizontalAlignment="Left" Height="23" Margin="120,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161"/>
+                    <TextBox x:Name="txtTitulo" HorizontalAlignment="Left" Height="23" Margin="120,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161"/>
+                    <TextBox x:Name="txtAutor" HorizontalAlignment="Left" Height="23" Margin="337,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="114" RenderTransformOrigin="0.228,0.435"/>
+                    <Button x:Name="btnAgregarLibro" Content="Agregar Libro" HorizontalAlignment="Left" Margin="337,75,0,0" VerticalAlignment="Top" Width="114" RenderTransformOrigin="2.96,-3.8" Height="24" Click="btnAgregarLibro_Click"/>
+                    <TextBox x:Name="txtAñoEdicion" HorizontalAlignment="Left" Height="23" Margin="120,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="84"/>
+                        
+                    <DataGrid x:Name="dgLibros" AutoGenerateColumns="False" Margin="10,104,23,0" VerticalAlignment="Top" RenderTransformOrigin="-6.917,-1.385" Height="187">
+                        <DataGrid.Columns>
+                            
+                            <DataGridTemplateColumn>
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Button x:Name="btnBorrarLibrodg" Click="btnBorrarLibrodg_Click">Borrar</Button>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            
+                            <DataGridTextColumn Header="Numero de Serie" Binding="{Binding Path=NumeroSerie}" IsReadOnly="True"/>
+                            <DataGridTextColumn Header="Titulo" Binding="{Binding Path=Titulo}" IsReadOnly="True"/>
+                            <DataGridTextColumn Header="Autor" Binding="{Binding Path=Autor}" IsReadOnly="True"/>
+                            <DataGridTextColumn Header="Año de Edicion" Binding="{Binding Path=AñoEdicion}" IsReadOnly="True"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+                <TabItem Header="Clientes">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="10*"/>
+                        <RowDefinition Height="71*"/>
+                        <RowDefinition Height="220*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="13*"/>
+                        <ColumnDefinition Width="477*"/>
+                        <ColumnDefinition Width="12*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Content="Nombres" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Top" Height="26" Width="59"/>
+                    <Label Content="Rut" Grid.Column="1" HorizontalAlignment="Left" Margin="200,0,0,0" Grid.Row="1" VerticalAlignment="Top" Height="26" Width="28"/>
+                    <Label Content="Apellidos" Grid.Column="1" HorizontalAlignment="Left" Margin="0,33,0,0" Grid.Row="1" VerticalAlignment="Top" Height="26" Width="59"/>
+                    <Button x:Name="btnAgregarCliente" Content="Agregar Cliente" Grid.Column="1" HorizontalAlignment="Left" Margin="234,39,0,0" Grid.Row="1" VerticalAlignment="Top" Width="120" Click="btnAgregarCliente_Click" Height="20"/>
+                    <TextBox x:Name="txtNombres" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="64,4,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="136"/>
+                    <TextBox x:Name="txtApellidos" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="64,37,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="136"/>
+                    <TextBox x:Name="txtRut" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="234,4,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+                    <DataGrid x:Name="dgClientes" AutoGenerateColumns="False" Grid.Column="1" Grid.Row="2" VerticalAlignment="Top" Height="220">
+                        <DataGrid.Columns>
+                        <DataGridTemplateColumn>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button x:Name="btnBorrarClientedg" Click="btnBorrarClientedg_Click">Borrar</Button>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        
+                            <DataGridTextColumn Header="Rut" Binding="{Binding Path=Rut}" IsReadOnly="True"/>
+                            <DataGridTextColumn Header="Nombres" Binding="{Binding Path=Nombres}" IsReadOnly="True"/>
+                            <DataGridTextColumn Header="Apellidos" Binding="{Binding Path=Apellidos}" IsReadOnly="True"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+                </Grid>
+
+            </TabItem>
+                
+                <TabItem Header="Préstamos">
+                    <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="243*"/>
+                        <ColumnDefinition Width="3*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="10*"/>
+                        <RowDefinition Height="70*"/>
+                        <RowDefinition Height="210*"/>
+                        <RowDefinition Height="11*"/>
+                    </Grid.RowDefinitions>
+                    <Label Content="Libro" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Top" RenderTransformOrigin="-0.026,0.346" Height="26" Width="37"/>
+                    <Label Content="Cliente" Grid.Column="1" HorizontalAlignment="Left" Margin="0,31,0,0" Grid.Row="1" VerticalAlignment="Top" Height="26" Width="47"/>
+                    <DatePicker x:Name="dtpFechaLimite" Grid.Column="1" HorizontalAlignment="Left" Margin="336,1,0,0" Grid.Row="1" VerticalAlignment="Top" Height="24" Width="145" Text="vb"/>
+                    <Label Content="Fecha Limite" Grid.Column="1" HorizontalAlignment="Left" Margin="255,0,0,0" Grid.Row="1" VerticalAlignment="Top" Height="26" Width="76"/>
+                    <Button x:Name="btnAgregarPrestamo" Content="Agregar Prestamo" Grid.Column="1" HorizontalAlignment="Left" Margin="336,37,0,0" Grid.Row="1" VerticalAlignment="Top" Width="117" Height="20" Click="btnAgregarPrestamo_Click"/>
+                    <ComboBox x:Name="cboLibros" Grid.Column="1" HorizontalAlignment="Left" Margin="52,0,0,0" Grid.Row="1" VerticalAlignment="Top" Width="198" Height="22" SelectedIndex="0"/>
+                    <ComboBox x:Name="cboClientes" Grid.Column="1" HorizontalAlignment="Left" Margin="52,31,0,0" Grid.Row="1" VerticalAlignment="Top" Width="198" Height="22" SelectedIndex="0"/>
+                    
+                        <DataGrid x:Name="dgPrestamo" AutoGenerateColumns="False" Grid.Column="1" Margin="10,59,4,0" Grid.Row="2">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Libro" Binding="{Binding Path=Libro}" IsReadOnly="True"/>
+                        <DataGridTextColumn Header="Cliente" Binding="{Binding Path=Cliente}" IsReadOnly="True"/>
+                        <DataGridTextColumn Header="Fecha de Prestamo" Binding="{Binding Path=FechaPrestamo}" IsReadOnly="True"/>
+                        <DataGridTextColumn Header="Fecha Limite" Binding="{Binding Path=FechaLimite}" IsReadOnly="True"/>
+                        <DataGridTextColumn Header="Fecha Devolucion" Binding="{Binding Path=FechaDevolucion}" IsReadOnly="True"/>
+                        <!--<DataGridTextColumn Header="Estado" Binding="{Binding Path=Estado}" IsReadOnly="True"/> -->
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <GroupBox Grid.Column="1" Header="Devolución de Libros" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Top" Height="54" Width="363"/>
+                            <Label Content="Numero De Serie" Grid.Column="1" HorizontalAlignment="Left" Margin="10,16,0,0" Grid.Row="2" VerticalAlignment="Top"/>
+                            <TextBox x:Name="txtNumSerieDevolucion" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="116,19,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                            <Button x:Name="btnDevolucion" Content="Devolución" Grid.Column="1" HorizontalAlignment="Left" Margin="255,19,0,0" Grid.Row="2" VerticalAlignment="Top" Width="94" RenderTransformOrigin="0.507,-0.15" Height="23" Click="btnDevolucion_Click"/>
+                    <RadioButton x:Name="rdoVigentes" Content="Vigentes" Grid.Column="1" HorizontalAlignment="Left" Margin="404,16,0,0" Grid.Row="2" VerticalAlignment="Top" GroupName="GroupVerDg" Checked="rdoVigentes_Checked"/>
+                    <RadioButton x:Name="rdoFinalizados" Content="Finalizados" Grid.Column="1" HorizontalAlignment="Left" Margin="404,36,0,0" Grid.Row="2" VerticalAlignment="Top" GroupName="GroupVerDg" Checked="rdoFinalizados_Checked"/>
+                    <Label Content="Ver" Grid.Column="1" HorizontalAlignment="Left" Margin="371,10,0,0" Grid.Row="2" VerticalAlignment="Top" RenderTransformOrigin="-4.643,0.346"/>
+
+
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="Estadísticas">
+                <Grid Background="#FFE5E5E5">
+                    <DataGrid x:Name="dgLibrosPrestados" AutoGenerateColumns="False" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="312" Width="490">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Numero de Serie" Binding="{Binding Path=NumeroSerie}" IsReadOnly="True"/>
+                            <DataGridTextColumn Header="Titulo" Binding="{Binding Path=Titulo}" IsReadOnly="True"/>
+                            <DataGridTextColumn Header="Veces Prestado" Binding="{Binding Path=GetEstadistica}" IsReadOnly="True"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+            </TabControl>
+    </DockPanel>
+</Window>

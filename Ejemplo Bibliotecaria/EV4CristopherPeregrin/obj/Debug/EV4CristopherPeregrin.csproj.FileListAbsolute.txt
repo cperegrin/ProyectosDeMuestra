@@ -1,0 +1,114 @@
+c:\users\zeto\documents\visual studio 2012\Projects\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EV4CristopherPeregrin.exe.config
+c:\users\zeto\documents\visual studio 2012\Projects\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.csprojResolveAssemblyReference.cache
+c:\users\zeto\documents\visual studio 2012\Projects\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\MainWindow.baml
+c:\users\zeto\documents\visual studio 2012\Projects\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\MainWindow.g.cs
+c:\users\zeto\documents\visual studio 2012\Projects\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\App.g.cs
+c:\users\zeto\documents\visual studio 2012\Projects\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin_Content.g.cs
+c:\users\zeto\documents\visual studio 2012\Projects\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin_MarkupCompile.cache
+c:\users\zeto\documents\visual studio 2012\Projects\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.g.resources
+c:\users\zeto\documents\visual studio 2012\Projects\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.Properties.Resources.resources
+c:\users\zeto\documents\visual studio 2012\Projects\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.csproj.GenerateResource.Cache
+c:\users\zeto\documents\visual studio 2012\Projects\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EV4CristopherPeregrin.sdf
+c:\users\zeto\documents\visual studio 2012\Projects\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EV4CristopherPeregrin.exe
+c:\users\zeto\documents\visual studio 2012\Projects\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EV4CristopherPeregrin.pdb
+c:\users\zeto\documents\visual studio 2012\Projects\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EntityFramework.dll
+c:\users\zeto\documents\visual studio 2012\Projects\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\zeto\documents\visual studio 2012\Projects\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EntityFramework.xml
+c:\users\zeto\documents\visual studio 2012\Projects\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\zeto\documents\visual studio 2012\Projects\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.exe
+c:\users\zeto\documents\visual studio 2012\Projects\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.pdb
+C:\Users\ZeTo\Desktop\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EV4CristopherPeregrin.exe.config
+C:\Users\ZeTo\Desktop\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.exe
+C:\Users\ZeTo\Desktop\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.pdb
+C:\Users\ZeTo\Desktop\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EV4CristopherPeregrin.sdf
+C:\Users\ZeTo\Desktop\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EV4CristopherPeregrin.exe
+C:\Users\ZeTo\Desktop\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EV4CristopherPeregrin.pdb
+C:\Users\ZeTo\Desktop\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EntityFramework.dll
+C:\Users\ZeTo\Desktop\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ZeTo\Desktop\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EntityFramework.xml
+C:\Users\ZeTo\Desktop\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ZeTo\Desktop\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.csprojResolveAssemblyReference.cache
+C:\Users\ZeTo\Desktop\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\MainWindow.baml
+C:\Users\ZeTo\Desktop\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\MainWindow.g.cs
+C:\Users\ZeTo\Desktop\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\App.g.cs
+C:\Users\ZeTo\Desktop\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin_Content.g.cs
+C:\Users\ZeTo\Desktop\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin_MarkupCompile.cache
+C:\Users\ZeTo\Desktop\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.g.resources
+C:\Users\ZeTo\Desktop\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.Properties.Resources.resources
+C:\Users\ZeTo\Desktop\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.csproj.GenerateResource.Cache
+C:\Users\ZeTo\Documents\Tareas\Analista Programador\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EV4CristopherPeregrin.exe.config
+C:\Users\ZeTo\Documents\Tareas\Analista Programador\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.exe
+C:\Users\ZeTo\Documents\Tareas\Analista Programador\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.pdb
+C:\Users\ZeTo\Documents\Tareas\Analista Programador\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EV4CristopherPeregrin.sdf
+C:\Users\ZeTo\Documents\Tareas\Analista Programador\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EV4CristopherPeregrin.exe
+C:\Users\ZeTo\Documents\Tareas\Analista Programador\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EV4CristopherPeregrin.pdb
+C:\Users\ZeTo\Documents\Tareas\Analista Programador\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EntityFramework.dll
+C:\Users\ZeTo\Documents\Tareas\Analista Programador\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ZeTo\Documents\Tareas\Analista Programador\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EntityFramework.xml
+C:\Users\ZeTo\Documents\Tareas\Analista Programador\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ZeTo\Documents\Tareas\Analista Programador\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.csprojResolveAssemblyReference.cache
+C:\Users\ZeTo\Documents\Tareas\Analista Programador\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\MainWindow.baml
+C:\Users\ZeTo\Documents\Tareas\Analista Programador\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\MainWindow.g.cs
+C:\Users\ZeTo\Documents\Tareas\Analista Programador\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\App.g.cs
+C:\Users\ZeTo\Documents\Tareas\Analista Programador\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin_Content.g.cs
+C:\Users\ZeTo\Documents\Tareas\Analista Programador\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin_MarkupCompile.cache
+C:\Users\ZeTo\Documents\Tareas\Analista Programador\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.g.resources
+C:\Users\ZeTo\Documents\Tareas\Analista Programador\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.Properties.Resources.resources
+C:\Users\ZeTo\Documents\Tareas\Analista Programador\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.csproj.GenerateResource.Cache
+E:\Cristopher\Trabajos\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EV4CristopherPeregrin.sdf
+E:\Cristopher\Trabajos\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EV4CristopherPeregrin.exe.config
+E:\Cristopher\Trabajos\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EV4CristopherPeregrin.exe
+E:\Cristopher\Trabajos\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EV4CristopherPeregrin.pdb
+E:\Cristopher\Trabajos\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EntityFramework.dll
+E:\Cristopher\Trabajos\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EntityFramework.SqlServer.dll
+E:\Cristopher\Trabajos\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EntityFramework.xml
+E:\Cristopher\Trabajos\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EntityFramework.SqlServer.xml
+E:\Cristopher\Trabajos\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.csprojResolveAssemblyReference.cache
+E:\Cristopher\Trabajos\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\MainWindow.baml
+E:\Cristopher\Trabajos\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\MainWindow.g.cs
+E:\Cristopher\Trabajos\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\App.g.cs
+E:\Cristopher\Trabajos\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin_Content.g.cs
+E:\Cristopher\Trabajos\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin_MarkupCompile.cache
+E:\Cristopher\Trabajos\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.g.resources
+E:\Cristopher\Trabajos\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.Properties.Resources.resources
+E:\Cristopher\Trabajos\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.csproj.GenerateResource.Cache
+E:\Cristopher\Trabajos\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.exe
+E:\Cristopher\Trabajos\progra 3\EVALUACION4 FINAL\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.pdb
+C:\Users\elZeT\Desktop\prep\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EV4CristopherPeregrin.exe.config
+C:\Users\elZeT\Desktop\prep\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.exe
+C:\Users\elZeT\Desktop\prep\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.pdb
+C:\Users\elZeT\Desktop\prep\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EV4CristopherPeregrin.sdf
+C:\Users\elZeT\Desktop\prep\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EV4CristopherPeregrin.exe
+C:\Users\elZeT\Desktop\prep\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EV4CristopherPeregrin.pdb
+C:\Users\elZeT\Desktop\prep\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EntityFramework.dll
+C:\Users\elZeT\Desktop\prep\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\elZeT\Desktop\prep\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EntityFramework.xml
+C:\Users\elZeT\Desktop\prep\EV4CristopherPeregrin\EV4CristopherPeregrin\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\elZeT\Desktop\prep\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.csprojResolveAssemblyReference.cache
+C:\Users\elZeT\Desktop\prep\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\MainWindow.baml
+C:\Users\elZeT\Desktop\prep\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\MainWindow.g.cs
+C:\Users\elZeT\Desktop\prep\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\App.g.cs
+C:\Users\elZeT\Desktop\prep\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin_Content.g.cs
+C:\Users\elZeT\Desktop\prep\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin_MarkupCompile.cache
+C:\Users\elZeT\Desktop\prep\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.g.resources
+C:\Users\elZeT\Desktop\prep\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.Properties.Resources.resources
+C:\Users\elZeT\Desktop\prep\EV4CristopherPeregrin\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.csproj.GenerateResource.Cache
+C:\Users\elZeT\Desktop\prep\EV4 prestamo bibliotecaria\EV4CristopherPeregrin\bin\Debug\EV4CristopherPeregrin.exe.config
+C:\Users\elZeT\Desktop\prep\EV4 prestamo bibliotecaria\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.exe
+C:\Users\elZeT\Desktop\prep\EV4 prestamo bibliotecaria\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.pdb
+C:\Users\elZeT\Desktop\prep\EV4 prestamo bibliotecaria\EV4CristopherPeregrin\bin\Debug\EV4CristopherPeregrin.sdf
+C:\Users\elZeT\Desktop\prep\EV4 prestamo bibliotecaria\EV4CristopherPeregrin\bin\Debug\EV4CristopherPeregrin.exe
+C:\Users\elZeT\Desktop\prep\EV4 prestamo bibliotecaria\EV4CristopherPeregrin\bin\Debug\EV4CristopherPeregrin.pdb
+C:\Users\elZeT\Desktop\prep\EV4 prestamo bibliotecaria\EV4CristopherPeregrin\bin\Debug\EntityFramework.dll
+C:\Users\elZeT\Desktop\prep\EV4 prestamo bibliotecaria\EV4CristopherPeregrin\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\elZeT\Desktop\prep\EV4 prestamo bibliotecaria\EV4CristopherPeregrin\bin\Debug\EntityFramework.xml
+C:\Users\elZeT\Desktop\prep\EV4 prestamo bibliotecaria\EV4CristopherPeregrin\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\elZeT\Desktop\prep\EV4 prestamo bibliotecaria\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.csprojResolveAssemblyReference.cache
+C:\Users\elZeT\Desktop\prep\EV4 prestamo bibliotecaria\EV4CristopherPeregrin\obj\Debug\MainWindow.baml
+C:\Users\elZeT\Desktop\prep\EV4 prestamo bibliotecaria\EV4CristopherPeregrin\obj\Debug\MainWindow.g.cs
+C:\Users\elZeT\Desktop\prep\EV4 prestamo bibliotecaria\EV4CristopherPeregrin\obj\Debug\App.g.cs
+C:\Users\elZeT\Desktop\prep\EV4 prestamo bibliotecaria\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin_Content.g.cs
+C:\Users\elZeT\Desktop\prep\EV4 prestamo bibliotecaria\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin_MarkupCompile.cache
+C:\Users\elZeT\Desktop\prep\EV4 prestamo bibliotecaria\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.g.resources
+C:\Users\elZeT\Desktop\prep\EV4 prestamo bibliotecaria\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.Properties.Resources.resources
+C:\Users\elZeT\Desktop\prep\EV4 prestamo bibliotecaria\EV4CristopherPeregrin\obj\Debug\EV4CristopherPeregrin.csproj.GenerateResource.Cache
