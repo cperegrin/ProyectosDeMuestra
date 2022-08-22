@@ -1,0 +1,49 @@
+C:\Users\user\AppData\Local\Temporary Projects\Ejemplo01\bin\Debug\Ejemplo01.exe.config
+C:\Users\user\Desktop\20150608\Ejemplo01\Ejemplo01\bin\Debug\Ejemplo01.exe.config
+C:\Users\user\Desktop\20150608\Ejemplo01\Ejemplo01\bin\Debug\Ejemplo01.sdf
+C:\Users\user\Desktop\20150608\Ejemplo01\Ejemplo01\bin\Debug\Ejemplo01.exe
+C:\Users\user\Desktop\20150608\Ejemplo01\Ejemplo01\bin\Debug\Ejemplo01.pdb
+C:\Users\user\Desktop\20150608\Ejemplo01\Ejemplo01\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\20150608\Ejemplo01\Ejemplo01\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\20150608\Ejemplo01\Ejemplo01\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\20150608\Ejemplo01\Ejemplo01\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\20150608\Ejemplo01\Ejemplo01\obj\Debug\Ejemplo01.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\20150608\Ejemplo01\Ejemplo01\obj\Debug\Ejemplo01.Form1.resources
+C:\Users\user\Desktop\20150608\Ejemplo01\Ejemplo01\obj\Debug\Ejemplo01.Properties.Resources.resources
+C:\Users\user\Desktop\20150608\Ejemplo01\Ejemplo01\obj\Debug\Ejemplo01.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\20150608\Ejemplo01\Ejemplo01\obj\Debug\Ejemplo01.exe
+C:\Users\user\Desktop\20150608\Ejemplo01\Ejemplo01\obj\Debug\Ejemplo01.pdb
+C:\Users\user\Downloads\20150608\Ejemplo01\Ejemplo01\bin\Debug\Ejemplo01.exe.config
+C:\Users\user\Downloads\20150608\Ejemplo01\Ejemplo01\obj\Debug\Ejemplo01.exe
+C:\Users\user\Downloads\20150608\Ejemplo01\Ejemplo01\obj\Debug\Ejemplo01.pdb
+H:\progra 3\08 - 06\20150608\Ejemplo01\Ejemplo01\bin\Debug\Ejemplo01.exe.config
+H:\progra 3\08 - 06\20150608\Ejemplo01\Ejemplo01\obj\Debug\Ejemplo01.exe
+H:\progra 3\08 - 06\20150608\Ejemplo01\Ejemplo01\obj\Debug\Ejemplo01.pdb
+E:\Cristopher\Trabajos\progra 3\08 - 06\20150608\Ejemplo01\Ejemplo01\bin\Debug\Ejemplo01.exe.config
+E:\Cristopher\Trabajos\progra 3\08 - 06\20150608\Ejemplo01\Ejemplo01\obj\Debug\Ejemplo01.exe
+E:\Cristopher\Trabajos\progra 3\08 - 06\20150608\Ejemplo01\Ejemplo01\obj\Debug\Ejemplo01.pdb
+E:\Cristopher\Trabajos\progra 3\08 - 06\20150608\Ejemplo01\Ejemplo01\bin\Debug\Ejemplo01.sdf
+E:\Cristopher\Trabajos\progra 3\08 - 06\20150608\Ejemplo01\Ejemplo01\bin\Debug\Ejemplo01.exe
+E:\Cristopher\Trabajos\progra 3\08 - 06\20150608\Ejemplo01\Ejemplo01\bin\Debug\Ejemplo01.pdb
+E:\Cristopher\Trabajos\progra 3\08 - 06\20150608\Ejemplo01\Ejemplo01\bin\Debug\EntityFramework.dll
+E:\Cristopher\Trabajos\progra 3\08 - 06\20150608\Ejemplo01\Ejemplo01\bin\Debug\EntityFramework.SqlServer.dll
+E:\Cristopher\Trabajos\progra 3\08 - 06\20150608\Ejemplo01\Ejemplo01\bin\Debug\EntityFramework.xml
+E:\Cristopher\Trabajos\progra 3\08 - 06\20150608\Ejemplo01\Ejemplo01\bin\Debug\EntityFramework.SqlServer.xml
+E:\Cristopher\Trabajos\progra 3\08 - 06\20150608\Ejemplo01\Ejemplo01\obj\Debug\Ejemplo01.csprojResolveAssemblyReference.cache
+E:\Cristopher\Trabajos\progra 3\08 - 06\20150608\Ejemplo01\Ejemplo01\obj\Debug\Ejemplo01.Form1.resources
+E:\Cristopher\Trabajos\progra 3\08 - 06\20150608\Ejemplo01\Ejemplo01\obj\Debug\Ejemplo01.Properties.Resources.resources
+E:\Cristopher\Trabajos\progra 3\08 - 06\20150608\Ejemplo01\Ejemplo01\obj\Debug\Ejemplo01.csproj.GenerateResource.Cache
+C:\Users\elZeT\Desktop\prep\Ejemplo01 vehiculos\Ejemplo01\bin\Debug\Ejemplo01.exe.config
+C:\Users\elZeT\Desktop\prep\Ejemplo01 vehiculos\Ejemplo01\obj\Debug\Ejemplo01.exe
+C:\Users\elZeT\Desktop\prep\Ejemplo01 vehiculos\Ejemplo01\obj\Debug\Ejemplo01.pdb
+C:\Users\elZeT\Desktop\prep\Ejemplo01 vehiculos\Ejemplo01\bin\Debug\Ejemplo01.sdf
+C:\Users\elZeT\Desktop\prep\Ejemplo01 vehiculos\Ejemplo01\bin\Debug\Ejemplo01.exe
+C:\Users\elZeT\Desktop\prep\Ejemplo01 vehiculos\Ejemplo01\bin\Debug\Ejemplo01.pdb
+C:\Users\elZeT\Desktop\prep\Ejemplo01 vehiculos\Ejemplo01\bin\Debug\EntityFramework.dll
+C:\Users\elZeT\Desktop\prep\Ejemplo01 vehiculos\Ejemplo01\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\elZeT\Desktop\prep\Ejemplo01 vehiculos\Ejemplo01\bin\Debug\EntityFramework.xml
+C:\Users\elZeT\Desktop\prep\Ejemplo01 vehiculos\Ejemplo01\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\elZeT\Desktop\prep\Ejemplo01 vehiculos\Ejemplo01\obj\Debug\Ejemplo01.csprojResolveAssemblyReference.cache
+C:\Users\elZeT\Desktop\prep\Ejemplo01 vehiculos\Ejemplo01\obj\Debug\Ejemplo01.Form1.resources
+C:\Users\elZeT\Desktop\prep\Ejemplo01 vehiculos\Ejemplo01\obj\Debug\Ejemplo01.Properties.Resources.resources
+C:\Users\elZeT\Desktop\prep\Ejemplo01 vehiculos\Ejemplo01\obj\Debug\Ejemplo01.csproj.GenerateResource.Cache
