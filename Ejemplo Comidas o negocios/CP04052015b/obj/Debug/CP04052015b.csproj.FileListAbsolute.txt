@@ -1,0 +1,64 @@
+C:\Users\user\AppData\Local\Temporary Projects\CP04052015b\bin\Debug\CP04052015b.exe.config
+C:\Users\user\Downloads\CP04052015b\CP04052015b\bin\Debug\CP04052015b.exe.config
+C:\Users\user\Downloads\CP04052015b\CP04052015b\bin\Debug\CP04052015b.exe
+C:\Users\user\Downloads\CP04052015b\CP04052015b\bin\Debug\CP04052015b.pdb
+C:\Users\user\Downloads\CP04052015b\CP04052015b\obj\Debug\CP04052015b.csprojResolveAssemblyReference.cache
+C:\Users\user\Downloads\CP04052015b\CP04052015b\obj\Debug\MainWindow.baml
+C:\Users\user\Downloads\CP04052015b\CP04052015b\obj\Debug\MainWindow.g.cs
+C:\Users\user\Downloads\CP04052015b\CP04052015b\obj\Debug\App.g.cs
+C:\Users\user\Downloads\CP04052015b\CP04052015b\obj\Debug\CP04052015b_MarkupCompile.cache
+C:\Users\user\Downloads\CP04052015b\CP04052015b\obj\Debug\CP04052015b.g.resources
+C:\Users\user\Downloads\CP04052015b\CP04052015b\obj\Debug\CP04052015b.Properties.Resources.resources
+C:\Users\user\Downloads\CP04052015b\CP04052015b\obj\Debug\CP04052015b.csproj.GenerateResource.Cache
+C:\Users\user\Downloads\CP04052015b\CP04052015b\obj\Debug\CP04052015b.exe
+C:\Users\user\Downloads\CP04052015b\CP04052015b\obj\Debug\CP04052015b.pdb
+C:\Users\user\Downloads\CP04052015b\CP04052015b\bin\Debug\CP04052015b.sdf
+C:\Users\user\Downloads\CP04052015b\CP04052015b\bin\Debug\EntityFramework.dll
+C:\Users\user\Downloads\CP04052015b\CP04052015b\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Downloads\CP04052015b\CP04052015b\bin\Debug\EntityFramework.xml
+C:\Users\user\Downloads\CP04052015b\CP04052015b\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Downloads\CP04052015b\CP04052015b\obj\Debug\CP04052015b_Content.g.cs
+G:\progra 3\CP04052015b\CP04052015b\bin\Debug\CP04052015b.exe.config
+G:\progra 3\CP04052015b\CP04052015b\obj\Debug\CP04052015b.exe
+G:\progra 3\CP04052015b\CP04052015b\obj\Debug\CP04052015b.pdb
+H:\progra 3\CP04052015b\CP04052015b\bin\Debug\CP04052015b.exe.config
+H:\progra 3\CP04052015b\CP04052015b\obj\Debug\CP04052015b.exe
+H:\progra 3\CP04052015b\CP04052015b\obj\Debug\CP04052015b.pdb
+E:\Cristopher\Trabajos\progra 3\CP04052015b\CP04052015b\bin\Debug\CP04052015b.sdf
+E:\Cristopher\Trabajos\progra 3\CP04052015b\CP04052015b\bin\Debug\CP04052015b.exe.config
+E:\Cristopher\Trabajos\progra 3\CP04052015b\CP04052015b\bin\Debug\CP04052015b.exe
+E:\Cristopher\Trabajos\progra 3\CP04052015b\CP04052015b\bin\Debug\CP04052015b.pdb
+E:\Cristopher\Trabajos\progra 3\CP04052015b\CP04052015b\bin\Debug\EntityFramework.dll
+E:\Cristopher\Trabajos\progra 3\CP04052015b\CP04052015b\bin\Debug\EntityFramework.SqlServer.dll
+E:\Cristopher\Trabajos\progra 3\CP04052015b\CP04052015b\bin\Debug\EntityFramework.xml
+E:\Cristopher\Trabajos\progra 3\CP04052015b\CP04052015b\bin\Debug\EntityFramework.SqlServer.xml
+E:\Cristopher\Trabajos\progra 3\CP04052015b\CP04052015b\obj\Debug\CP04052015b.csprojResolveAssemblyReference.cache
+E:\Cristopher\Trabajos\progra 3\CP04052015b\CP04052015b\obj\Debug\MainWindow.baml
+E:\Cristopher\Trabajos\progra 3\CP04052015b\CP04052015b\obj\Debug\MainWindow.g.cs
+E:\Cristopher\Trabajos\progra 3\CP04052015b\CP04052015b\obj\Debug\App.g.cs
+E:\Cristopher\Trabajos\progra 3\CP04052015b\CP04052015b\obj\Debug\CP04052015b_Content.g.cs
+E:\Cristopher\Trabajos\progra 3\CP04052015b\CP04052015b\obj\Debug\CP04052015b_MarkupCompile.cache
+E:\Cristopher\Trabajos\progra 3\CP04052015b\CP04052015b\obj\Debug\CP04052015b.g.resources
+E:\Cristopher\Trabajos\progra 3\CP04052015b\CP04052015b\obj\Debug\CP04052015b.Properties.Resources.resources
+E:\Cristopher\Trabajos\progra 3\CP04052015b\CP04052015b\obj\Debug\CP04052015b.csproj.GenerateResource.Cache
+E:\Cristopher\Trabajos\progra 3\CP04052015b\CP04052015b\obj\Debug\CP04052015b.exe
+E:\Cristopher\Trabajos\progra 3\CP04052015b\CP04052015b\obj\Debug\CP04052015b.pdb
+C:\Users\elZeT\Desktop\prep\Ejemplo comidas o negocios\CP04052015b\bin\Debug\CP04052015b.exe.config
+C:\Users\elZeT\Desktop\prep\Ejemplo comidas o negocios\CP04052015b\obj\Debug\CP04052015b.exe
+C:\Users\elZeT\Desktop\prep\Ejemplo comidas o negocios\CP04052015b\obj\Debug\CP04052015b.pdb
+C:\Users\elZeT\Desktop\prep\Ejemplo comidas o negocios\CP04052015b\bin\Debug\CP04052015b.sdf
+C:\Users\elZeT\Desktop\prep\Ejemplo comidas o negocios\CP04052015b\bin\Debug\CP04052015b.exe
+C:\Users\elZeT\Desktop\prep\Ejemplo comidas o negocios\CP04052015b\bin\Debug\CP04052015b.pdb
+C:\Users\elZeT\Desktop\prep\Ejemplo comidas o negocios\CP04052015b\bin\Debug\EntityFramework.dll
+C:\Users\elZeT\Desktop\prep\Ejemplo comidas o negocios\CP04052015b\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\elZeT\Desktop\prep\Ejemplo comidas o negocios\CP04052015b\bin\Debug\EntityFramework.xml
+C:\Users\elZeT\Desktop\prep\Ejemplo comidas o negocios\CP04052015b\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\elZeT\Desktop\prep\Ejemplo comidas o negocios\CP04052015b\obj\Debug\CP04052015b.csprojResolveAssemblyReference.cache
+C:\Users\elZeT\Desktop\prep\Ejemplo comidas o negocios\CP04052015b\obj\Debug\MainWindow.baml
+C:\Users\elZeT\Desktop\prep\Ejemplo comidas o negocios\CP04052015b\obj\Debug\MainWindow.g.cs
+C:\Users\elZeT\Desktop\prep\Ejemplo comidas o negocios\CP04052015b\obj\Debug\App.g.cs
+C:\Users\elZeT\Desktop\prep\Ejemplo comidas o negocios\CP04052015b\obj\Debug\CP04052015b_Content.g.cs
+C:\Users\elZeT\Desktop\prep\Ejemplo comidas o negocios\CP04052015b\obj\Debug\CP04052015b_MarkupCompile.cache
+C:\Users\elZeT\Desktop\prep\Ejemplo comidas o negocios\CP04052015b\obj\Debug\CP04052015b.g.resources
+C:\Users\elZeT\Desktop\prep\Ejemplo comidas o negocios\CP04052015b\obj\Debug\CP04052015b.Properties.Resources.resources
+C:\Users\elZeT\Desktop\prep\Ejemplo comidas o negocios\CP04052015b\obj\Debug\CP04052015b.csproj.GenerateResource.Cache

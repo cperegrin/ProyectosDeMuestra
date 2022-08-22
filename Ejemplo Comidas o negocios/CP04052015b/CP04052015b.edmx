@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="CP04052015bModel.Store" Alias="Self" Provider="System.Data.SqlServerCe.4.0" ProviderManifestToken="4.0" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="CP04052015bModelStoreContainer">
+          <EntitySet Name="Item" EntityType="CP04052015bModel.Store.Item" store:Type="Tables" />
+          <EntitySet Name="Venta" EntityType="CP04052015bModel.Store.Venta" store:Type="Tables" />
+          <AssociationSet Name="FK_Venta_Item" Association="CP04052015bModel.Store.FK_Venta_Item">
+            <End Role="Item" EntitySet="Item" />
+            <End Role="Venta" EntitySet="Venta" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Item">
+          <Key>
+            <PropertyRef Name="itemID" />
+          </Key>
+          <Property Name="itemID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="nvarchar" MaxLength="100" />
+          <Property Name="Precio" Type="int" />
+        </EntityType>
+        <EntityType Name="Venta">
+          <Key>
+            <PropertyRef Name="VentaID" />
+          </Key>
+          <Property Name="VentaID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Fecha" Type="datetime" />
+          <Property Name="Pago" Type="int" />
+          <Property Name="Vuelto" Type="int" />
+          <Property Name="itemID" Type="int" />
+        </EntityType>
+        <Association Name="FK_Venta_Item">
+          <End Role="Item" Type="CP04052015bModel.Store.Item" Multiplicity="0..1" />
+          <End Role="Venta" Type="CP04052015bModel.Store.Venta" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Item">
+              <PropertyRef Name="itemID" />
+            </Principal>
+            <Dependent Role="Venta">
+              <PropertyRef Name="itemID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="CP04052015bModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="CP04052015bEntidades" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="Item" EntityType="CP04052015bModel.Item" />
+          <EntitySet Name="Venta" EntityType="CP04052015bModel.Venta" />
+          <AssociationSet Name="FK_Venta_Item" Association="CP04052015bModel.FK_Venta_Item">
+            <End Role="Item" EntitySet="Item" />
+            <End Role="Venta" EntitySet="Venta" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Item">
+          <Key>
+            <PropertyRef Name="itemID" />
+          </Key>
+          <Property Name="itemID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Precio" Type="Int32" />
+          <NavigationProperty Name="Venta" Relationship="CP04052015bModel.FK_Venta_Item" FromRole="Item" ToRole="Venta" />
+        </EntityType>
+        <EntityType Name="Venta">
+          <Key>
+            <PropertyRef Name="VentaID" />
+          </Key>
+          <Property Name="VentaID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Fecha" Type="DateTime" Precision="3" />
+          <Property Name="Pago" Type="Int32" />
+          <Property Name="Vuelto" Type="Int32" />
+          <Property Name="itemID" Type="Int32" />
+          <NavigationProperty Name="Item" Relationship="CP04052015bModel.FK_Venta_Item" FromRole="Venta" ToRole="Item" />
+        </EntityType>
+        <Association Name="FK_Venta_Item">
+          <End Role="Item" Type="CP04052015bModel.Item" Multiplicity="0..1" />
+          <End Role="Venta" Type="CP04052015bModel.Venta" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Item">
+              <PropertyRef Name="itemID" />
+            </Principal>
+            <Dependent Role="Venta">
+              <PropertyRef Name="itemID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="CP04052015bModelStoreContainer" CdmEntityContainer="CP04052015bEntidades">
+          <EntitySetMapping Name="Item">
+            <EntityTypeMapping TypeName="CP04052015bModel.Item">
+              <MappingFragment StoreEntitySet="Item">
+                <ScalarProperty Name="itemID" ColumnName="itemID" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Precio" ColumnName="Precio" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Venta">
+            <EntityTypeMapping TypeName="CP04052015bModel.Venta">
+              <MappingFragment StoreEntitySet="Venta">
+                <ScalarProperty Name="VentaID" ColumnName="VentaID" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="Pago" ColumnName="Pago" />
+                <ScalarProperty Name="Vuelto" ColumnName="Vuelto" />
+                <ScalarProperty Name="itemID" ColumnName="itemID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Predeterminado" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
