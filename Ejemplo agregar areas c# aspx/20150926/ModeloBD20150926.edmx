@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="BD20150926Model.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="BD20150926ModelStoreContainer">
+          <EntitySet Name="Area" EntityType="BD20150926Model.Store.Area" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Carrera" EntityType="BD20150926Model.Store.Carrera" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_Carrera_ToTable" Association="BD20150926Model.Store.FK_Carrera_ToTable">
+            <End Role="Area" EntitySet="Area" />
+            <End Role="Carrera" EntitySet="Carrera" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Area">
+          <Key>
+            <PropertyRef Name="AreaID" />
+          </Key>
+          <Property Name="AreaID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="nvarchar" MaxLength="50" />
+          <Property Name="Encargado" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Carrera">
+          <Key>
+            <PropertyRef Name="CarreraID" />
+          </Key>
+          <Property Name="CarreraID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="nvarchar" MaxLength="50" />
+          <Property Name="Duracion" Type="int" />
+          <Property Name="AreaID" Type="int" />
+        </EntityType>
+        <Association Name="FK_Carrera_ToTable">
+          <End Role="Area" Type="BD20150926Model.Store.Area" Multiplicity="0..1" />
+          <End Role="Carrera" Type="BD20150926Model.Store.Carrera" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Area">
+              <PropertyRef Name="AreaID" />
+            </Principal>
+            <Dependent Role="Carrera">
+              <PropertyRef Name="AreaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="BD20150926Model" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="EntidadesBD20150926" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="Area" EntityType="BD20150926Model.Area" />
+          <EntitySet Name="Carrera" EntityType="BD20150926Model.Carrera" />
+          <AssociationSet Name="FK_Carrera_ToTable" Association="BD20150926Model.FK_Carrera_ToTable">
+            <End Role="Area" EntitySet="Area" />
+            <End Role="Carrera" EntitySet="Carrera" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Area">
+          <Key>
+            <PropertyRef Name="AreaID" />
+          </Key>
+          <Property Name="AreaID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Encargado" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="Carrera" Relationship="BD20150926Model.FK_Carrera_ToTable" FromRole="Area" ToRole="Carrera" />
+        </EntityType>
+        <EntityType Name="Carrera">
+          <Key>
+            <PropertyRef Name="CarreraID" />
+          </Key>
+          <Property Name="CarreraID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Duracion" Type="Int32" />
+          <Property Name="AreaID" Type="Int32" />
+          <NavigationProperty Name="Area" Relationship="BD20150926Model.FK_Carrera_ToTable" FromRole="Carrera" ToRole="Area" />
+        </EntityType>
+        <Association Name="FK_Carrera_ToTable">
+          <End Role="Area" Type="BD20150926Model.Area" Multiplicity="0..1" >
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Carrera" Type="BD20150926Model.Carrera" Multiplicity="*" >
+          </End>
+          <ReferentialConstraint>
+            <Principal Role="Area">
+              <PropertyRef Name="AreaID" />
+            </Principal>
+            <Dependent Role="Carrera">
+              <PropertyRef Name="AreaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="BD20150926ModelStoreContainer" CdmEntityContainer="EntidadesBD20150926">
+          <EntitySetMapping Name="Area">
+            <EntityTypeMapping TypeName="BD20150926Model.Area">
+              <MappingFragment StoreEntitySet="Area">
+                <ScalarProperty Name="AreaID" ColumnName="AreaID" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Encargado" ColumnName="Encargado" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Carrera">
+            <EntityTypeMapping TypeName="BD20150926Model.Carrera">
+              <MappingFragment StoreEntitySet="Carrera">
+                <ScalarProperty Name="CarreraID" ColumnName="CarreraID" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Duracion" ColumnName="Duracion" />
+                <ScalarProperty Name="AreaID" ColumnName="AreaID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Predeterminado" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

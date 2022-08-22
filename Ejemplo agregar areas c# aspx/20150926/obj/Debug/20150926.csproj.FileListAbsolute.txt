@@ -1,0 +1,17 @@
+C:\Users\user\Desktop\20150926\20150926\bin\20150926.dll
+C:\Users\user\Desktop\20150926\20150926\bin\20150926.pdb
+C:\Users\user\Desktop\20150926\20150926\bin\EntityFramework.dll
+C:\Users\user\Desktop\20150926\20150926\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\20150926\20150926\bin\EntityFramework.xml
+C:\Users\user\Desktop\20150926\20150926\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\20150926\20150926\obj\Debug\20150926.dll
+C:\Users\user\Desktop\20150926\20150926\obj\Debug\20150926.pdb
+E:\Cristopher\Trabajos\progra 4\20150926\20150926\bin\20150926.dll
+E:\Cristopher\Trabajos\progra 4\20150926\20150926\bin\20150926.pdb
+E:\Cristopher\Trabajos\progra 4\20150926\20150926\bin\EntityFramework.dll
+E:\Cristopher\Trabajos\progra 4\20150926\20150926\bin\EntityFramework.SqlServer.dll
+E:\Cristopher\Trabajos\progra 4\20150926\20150926\bin\EntityFramework.xml
+E:\Cristopher\Trabajos\progra 4\20150926\20150926\bin\EntityFramework.SqlServer.xml
+E:\Cristopher\Trabajos\progra 4\20150926\20150926\obj\Debug\20150926.csprojResolveAssemblyReference.cache
+E:\Cristopher\Trabajos\progra 4\20150926\20150926\obj\Debug\20150926.dll
+E:\Cristopher\Trabajos\progra 4\20150926\20150926\obj\Debug\20150926.pdb

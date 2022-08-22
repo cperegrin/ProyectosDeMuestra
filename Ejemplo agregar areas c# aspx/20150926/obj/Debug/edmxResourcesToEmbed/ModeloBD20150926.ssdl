@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BD20150926Model.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="BD20150926ModelStoreContainer">
+    <EntitySet Name="Area" EntityType="BD20150926Model.Store.Area" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Carrera" EntityType="BD20150926Model.Store.Carrera" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_Carrera_ToTable" Association="BD20150926Model.Store.FK_Carrera_ToTable">
+      <End Role="Area" EntitySet="Area" />
+      <End Role="Carrera" EntitySet="Carrera" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Area">
+    <Key>
+      <PropertyRef Name="AreaID" />
+    </Key>
+    <Property Name="AreaID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" />
+    <Property Name="Encargado" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Carrera">
+    <Key>
+      <PropertyRef Name="CarreraID" />
+    </Key>
+    <Property Name="CarreraID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" />
+    <Property Name="Duracion" Type="int" />
+    <Property Name="AreaID" Type="int" />
+  </EntityType>
+  <Association Name="FK_Carrera_ToTable">
+    <End Role="Area" Type="BD20150926Model.Store.Area" Multiplicity="0..1" />
+    <End Role="Carrera" Type="BD20150926Model.Store.Carrera" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Area">
+        <PropertyRef Name="AreaID" />
+      </Principal>
+      <Dependent Role="Carrera">
+        <PropertyRef Name="AreaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

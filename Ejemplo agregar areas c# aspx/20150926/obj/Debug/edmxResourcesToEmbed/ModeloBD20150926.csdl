@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BD20150926Model" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="EntidadesBD20150926" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Area" EntityType="BD20150926Model.Area" />
+    <EntitySet Name="Carrera" EntityType="BD20150926Model.Carrera" />
+    <AssociationSet Name="FK_Carrera_ToTable" Association="BD20150926Model.FK_Carrera_ToTable">
+      <End Role="Area" EntitySet="Area" />
+      <End Role="Carrera" EntitySet="Carrera" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Area">
+    <Key>
+      <PropertyRef Name="AreaID" />
+    </Key>
+    <Property Name="AreaID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Encargado" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Carrera" Relationship="BD20150926Model.FK_Carrera_ToTable" FromRole="Area" ToRole="Carrera" />
+  </EntityType>
+  <EntityType Name="Carrera">
+    <Key>
+      <PropertyRef Name="CarreraID" />
+    </Key>
+    <Property Name="CarreraID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Duracion" Type="Int32" />
+    <Property Name="AreaID" Type="Int32" />
+    <NavigationProperty Name="Area" Relationship="BD20150926Model.FK_Carrera_ToTable" FromRole="Carrera" ToRole="Area" />
+  </EntityType>
+  <Association Name="FK_Carrera_ToTable">
+    <End Role="Area" Type="BD20150926Model.Area" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Carrera" Type="BD20150926Model.Carrera" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Area">
+        <PropertyRef Name="AreaID" />
+      </Principal>
+      <Dependent Role="Carrera">
+        <PropertyRef Name="AreaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
